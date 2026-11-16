@@ -1,0 +1,7 @@
+09:23:01 STRICT CHRONOLOGY Ridge
+09:23:01 STRICT CHRONOLOGY LightGBM
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:23:02 STRICT CHRONOLOGY TabResNet
+Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+09:23:06 COMPLETE sensitivity

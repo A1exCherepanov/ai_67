@@ -1,0 +1,11 @@
+test_corruption_is_exact_nested_and_leaves_truth (test_protocol.ProtocolTests.test_corruption_is_exact_nested_and_leaves_truth) ... ok
+test_holdouts_have_no_rows_or_dates_in_common (test_protocol.ProtocolTests.test_holdouts_have_no_rows_or_dates_in_common) ... ok
+test_preprocessing_does_not_refit_on_future (test_protocol.ProtocolTests.test_preprocessing_does_not_refit_on_future) ... ok
+test_target_and_ids_cannot_change_feature_matrix (test_protocol.ProtocolTests.test_target_and_ids_cannot_change_feature_matrix) ... ok
+test_unit_price_prediction_uses_observed_area (test_protocol.ProtocolTests.test_unit_price_prediction_uses_observed_area) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.326s
+
+OK
+PASS source hash; frozen validation selection; 40 metric groups; disjoint splits; 540 input-noise runs; 60 label-noise records

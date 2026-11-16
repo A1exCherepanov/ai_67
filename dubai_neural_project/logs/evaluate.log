@@ -1,0 +1,22 @@
+09:19:44 EVAL Median total seed=42
+09:19:44 EVAL Median unit seed=42
+09:19:44 EVAL Ridge total seed=42
+09:19:44 EVAL Ridge unit seed=42
+09:19:44 EVAL RandomForest total seed=42
+09:19:45 EVAL RandomForest unit seed=42
+09:19:46 EVAL LightGBM total seed=42
+09:19:47 EVAL LightGBM unit seed=42
+09:19:48 EVAL MLP total seed=42
+Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+09:19:48 EVAL MLP total seed=43
+09:19:53 EVAL MLP total seed=44
+09:19:57 EVAL MLP unit seed=42
+09:19:58 EVAL MLP unit seed=43
+09:20:03 EVAL MLP unit seed=44
+09:20:09 EVAL TabResNet total seed=42
+09:20:09 EVAL TabResNet total seed=43
+09:20:18 EVAL TabResNet total seed=44
+09:20:29 EVAL TabResNet unit seed=42
+09:20:29 EVAL TabResNet unit seed=43
+09:20:36 EVAL TabResNet unit seed=44
+09:20:43 COMPLETE evaluate

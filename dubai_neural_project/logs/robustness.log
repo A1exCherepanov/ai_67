@@ -1,0 +1,93 @@
+Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+09:20:57 INPUT NOISE area 0.05 complete
+09:21:00 INPUT NOISE area 0.1 complete
+09:21:03 INPUT NOISE area 0.2 complete
+09:21:05 INPUT NOISE view 0.05 complete
+09:21:08 INPUT NOISE view 0.1 complete
+09:21:11 INPUT NOISE view 0.2 complete
+09:21:13 INPUT NOISE missing 0.05 complete
+09:21:16 INPUT NOISE missing 0.1 complete
+09:21:18 INPUT NOISE missing 0.2 complete
+09:21:18 LABEL NOISE Ridge 0.0 repeat 0
+09:21:18 LABEL NOISE Ridge 0.05 repeat 0
+09:21:18 LABEL NOISE Ridge 0.1 repeat 0
+09:21:19 LABEL NOISE Ridge 0.2 repeat 0
+09:21:19 LABEL NOISE Ridge 0.0 repeat 1
+09:21:19 LABEL NOISE Ridge 0.05 repeat 1
+09:21:19 LABEL NOISE Ridge 0.1 repeat 1
+09:21:19 LABEL NOISE Ridge 0.2 repeat 1
+09:21:19 LABEL NOISE Ridge 0.0 repeat 2
+09:21:19 LABEL NOISE Ridge 0.05 repeat 2
+09:21:19 LABEL NOISE Ridge 0.1 repeat 2
+09:21:19 LABEL NOISE Ridge 0.2 repeat 2
+09:21:20 LABEL NOISE RandomForest 0.0 repeat 0
+09:21:20 LABEL NOISE RandomForest 0.05 repeat 0
+09:21:28 LABEL NOISE RandomForest 0.1 repeat 0
+09:21:35 LABEL NOISE RandomForest 0.2 repeat 0
+09:21:53 LABEL NOISE RandomForest 0.0 repeat 1
+09:21:53 LABEL NOISE RandomForest 0.05 repeat 1
+09:22:01 LABEL NOISE RandomForest 0.1 repeat 1
+09:22:08 LABEL NOISE RandomForest 0.2 repeat 1
+09:22:23 LABEL NOISE RandomForest 0.0 repeat 2
+09:22:23 LABEL NOISE RandomForest 0.05 repeat 2
+09:22:31 LABEL NOISE RandomForest 0.1 repeat 2
+09:22:38 LABEL NOISE RandomForest 0.2 repeat 2
+09:22:46 LABEL NOISE LightGBM 0.0 repeat 0
+09:22:46 LABEL NOISE LightGBM 0.05 repeat 0
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:47 LABEL NOISE LightGBM 0.1 repeat 0
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:48 LABEL NOISE LightGBM 0.2 repeat 0
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:51 LABEL NOISE LightGBM 0.0 repeat 1
+09:22:51 LABEL NOISE LightGBM 0.05 repeat 1
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:52 LABEL NOISE LightGBM 0.1 repeat 1
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:53 LABEL NOISE LightGBM 0.2 repeat 1
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:55 LABEL NOISE LightGBM 0.0 repeat 2
+09:22:55 LABEL NOISE LightGBM 0.05 repeat 2
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:56 LABEL NOISE LightGBM 0.1 repeat 2
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:57 LABEL NOISE LightGBM 0.2 repeat 2
+/workspace/scratch/192963e088be/.venv/lib/python3.12/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+09:22:58 LABEL NOISE MLP 0.0 repeat 0
+09:22:58 LABEL NOISE MLP 0.05 repeat 0
+09:23:02 LABEL NOISE MLP 0.1 repeat 0
+09:23:04 LABEL NOISE MLP 0.2 repeat 0
+09:23:07 LABEL NOISE MLP 0.0 repeat 1
+09:23:07 LABEL NOISE MLP 0.05 repeat 1
+09:23:12 LABEL NOISE MLP 0.1 repeat 1
+09:23:14 LABEL NOISE MLP 0.2 repeat 1
+09:23:17 LABEL NOISE MLP 0.0 repeat 2
+09:23:17 LABEL NOISE MLP 0.05 repeat 2
+09:23:19 LABEL NOISE MLP 0.1 repeat 2
+09:23:23 LABEL NOISE MLP 0.2 repeat 2
+09:23:27 LABEL NOISE TabResNet 0.0 repeat 0
+09:23:27 LABEL NOISE TabResNet 0.05 repeat 0
+09:23:33 LABEL NOISE TabResNet 0.1 repeat 0
+09:23:40 LABEL NOISE TabResNet 0.2 repeat 0
+09:23:47 LABEL NOISE TabResNet 0.0 repeat 1
+09:23:47 LABEL NOISE TabResNet 0.05 repeat 1
+09:23:55 LABEL NOISE TabResNet 0.1 repeat 1
+09:24:02 LABEL NOISE TabResNet 0.2 repeat 1
+09:24:09 LABEL NOISE TabResNet 0.0 repeat 2
+09:24:09 LABEL NOISE TabResNet 0.05 repeat 2
+09:24:15 LABEL NOISE TabResNet 0.1 repeat 2
+09:24:29 LABEL NOISE TabResNet 0.2 repeat 2
+09:24:51 COMPLETE robustness
