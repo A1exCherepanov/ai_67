@@ -1,0 +1,144 @@
+{
+  "selection_rule": "lowest 2024 validation MAE in USD; seed 42; no test scores",
+  "timestamp_utc": "2026-11-02T15:19:25Z",
+  "source_sha256": "91fbf672e9bea697998aa3e9126e675902cbce85318047236ac2ad55d7098012",
+  "seed": 42,
+  "replicate_seeds": [
+    42,
+    43,
+    44
+  ],
+  "input_noise_repeats": 10,
+  "label_noise_repeats": 3,
+  "noise_levels": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "params": {
+    "Median_total": {
+      "params": {},
+      "val_MAE_USD": 1400594.337809947,
+      "best_iteration": null
+    },
+    "Median_unit": {
+      "params": {},
+      "val_MAE_USD": 847398.2710360935,
+      "best_iteration": null
+    },
+    "Ridge_total": {
+      "params": {
+        "alpha": 100.0
+      },
+      "val_MAE_USD": 402636.4075574359,
+      "best_iteration": null
+    },
+    "Ridge_unit": {
+      "params": {
+        "alpha": 100.0
+      },
+      "val_MAE_USD": 406622.5039635436,
+      "best_iteration": null
+    },
+    "RandomForest_total": {
+      "params": {
+        "min_samples_leaf": 1,
+        "max_features": 0.9
+      },
+      "val_MAE_USD": 276640.73247887293,
+      "best_iteration": null
+    },
+    "RandomForest_unit": {
+      "params": {
+        "min_samples_leaf": 1,
+        "max_features": 0.9
+      },
+      "val_MAE_USD": 166729.97339497678,
+      "best_iteration": null
+    },
+    "LightGBM_total": {
+      "params": {
+        "num_leaves": 15,
+        "min_child_samples": 20
+      },
+      "val_MAE_USD": 163754.15082832112,
+      "best_iteration": 2406
+    },
+    "LightGBM_unit": {
+      "params": {
+        "num_leaves": 15,
+        "min_child_samples": 20
+      },
+      "val_MAE_USD": 136627.31521045414,
+      "best_iteration": 985
+    },
+    "MLP_total": {
+      "params": {
+        "hidden": [
+          128,
+          64,
+          32
+        ],
+        "dropout": 0.05,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "val_MAE_USD": 261298.7865229708,
+      "best_iteration": 35
+    },
+    "MLP_unit": {
+      "params": {
+        "hidden": [
+          128,
+          64,
+          32
+        ],
+        "dropout": 0.15,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "val_MAE_USD": 212931.76315861783,
+      "best_iteration": 10
+    },
+    "TabResNet_total": {
+      "params": {
+        "width": 128,
+        "blocks": 2,
+        "dropout": 0.05,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "val_MAE_USD": 205395.49166536838,
+      "best_iteration": 15
+    },
+    "TabResNet_unit": {
+      "params": {
+        "width": 128,
+        "blocks": 2,
+        "dropout": 0.05,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "val_MAE_USD": 213608.7140395397,
+      "best_iteration": 15
+    }
+  },
+  "target_per_family": {
+    "Median": "unit",
+    "Ridge": "total",
+    "RandomForest": "unit",
+    "LightGBM": "unit",
+    "MLP": "unit",
+    "TabResNet": "total"
+  },
+  "best_neural": "TabResNet",
+  "best_overall": "LightGBM",
+  "augmentation_policy": {
+    "area_share": 0.1,
+    "missing_share": 0.05,
+    "copies": 1
+  },
+  "neural_max_epochs": 220,
+  "neural_patience": 25,
+  "batch_size": 256
+}

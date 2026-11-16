@@ -1,0 +1,39 @@
+{
+  "rows": 12000,
+  "columns": 28,
+  "unique_projects": 172,
+  "duplicate_ids": 0,
+  "missing_cells": 0,
+  "min_date": "2021-01-01",
+  "max_date": "2026-04-29",
+  "listed_before_launch_year": 4600,
+  "handover_before_launch_year": 66,
+  "area_conversion_max_difference_m2": 0.09558847999999642,
+  "price_min": 39200.0,
+  "price_median": 1018100.0,
+  "price_max": 28897100.0,
+  "splits": {
+    "train": {
+      "n": 6738,
+      "projects": 172,
+      "start": "2021-01-01",
+      "end": "2023-12-31",
+      "median_price": 914400.0
+    },
+    "val": {
+      "n": 2278,
+      "projects": 172,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "median_price": 1167800.0
+    },
+    "test": {
+      "n": 2984,
+      "projects": 172,
+      "start": "2025-01-01",
+      "end": "2026-04-29",
+      "median_price": 1159200.0
+    }
+  },
+  "train_test_project_overlap": 172
+}
